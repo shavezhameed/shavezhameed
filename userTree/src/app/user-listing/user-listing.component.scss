@@ -1,0 +1,48 @@
+.user-tree{
+width:50%;
+margin-right:20px;
+float: left;
+border: 1px solid #c1c1c1;
+min-height: 500px;
+
+.user-link{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    &:hover{
+        text-decoration: underline;
+        color: blue
+    }
+}
+}
+.example-tree-invisible {
+    display: none;
+  }
+  
+.users-tree ul,
+.users-tree li {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.mat-tree-node {
+    min-height: 40px;
+}
+
+.user-details{
+    float: left;
+    border: 1px solid #c1c1c1;
+    padding: 20px;
+    width: 42%;
+    min-height: 460px;
+    div{
+        margin-top: 10px;
+        label{
+            font-weight: bold;
+            width: 100px;
+            display: inline-block;
+        }
+    }
+}
+  
